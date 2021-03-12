@@ -5,6 +5,12 @@ class UserService{
   }
    public static void setUser(User u){
      User u = new User();
+     int id = getId();
+     u.setId(id);
      u.setName(u.getId() + "--");
+  }
+  
+  getId(){
+
   }
 }
